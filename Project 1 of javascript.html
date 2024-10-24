@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <center><u><h1>Simple Calculator</h1></u></center>
+    <p>Today we are going to learn how to make a calculator using Javascript.We can create a simple calculator using operators.</p>
+    <h2> Javascript Operators</h2>
+    <p>There are 2 types of operators.
+        <ol><Li>
+            Arithematic Operator
+        </Li>
+    <li>Assignment Operator</li></ol>
+    </p>
+    <p>A calculator involves functions like addition, substraction, multiplication, division and modulus.</p>
+    <p>Sum of two numbers</p>
+    <p id="z"></p>
+    <p>Sub of two numbers</p>
+    <p id="y"></p>
+    <p>Mul of two numbers</p>
+    <p id="x"></p>
+    <p>Div of two numbers</p>
+    <p id="w"></p>
+    <p>Mod of two numbers</p>
+    <p id="v"></p>
+    <script>//Script tag is used for the javascript. By using double slash we can create comments in javascript.
+    //The first step to create a calculator is to assign a variable
+    var num1=-2;//var is a container to store the value.
+        var num2=8;
+        var sum=num1+num2;
+        document.getElementById("z").innerHTML="The total sum is = "+sum
+        var num1=-2;
+        var num2=8;
+        var sub=num1-num2;
+        document.getElementById("y").innerHTML="The total difference is = "+sub
+        var num1=-2;
+        var num2=8;
+        var mul=num1*num2;
+        document.getElementById("x").innerHTML="The product is = "+mul
+        var num1=-2;
+        var num2=8;
+        var div=num1/num2;
+        document.getElementById("w").innerHTML="The Division of two numbers  is = "+div
+        var num1=-2;
+        var num2=8;
+        var mod=num1%num2;
+        document.getElementById("v").innerHTML="The total Remainder is = "+mod
+    </script>
+</body>
+</html>
